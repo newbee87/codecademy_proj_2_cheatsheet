@@ -2,24 +2,29 @@
     font-family: 'Silkscreen', cursive;
     color: white;
     background-color: black;
+    border: solid red 1px;
 }
 body {
     margin: 0;
 }   
 nav {
-    
+    top: 0;
+    width: 100%;
+    position: fixed;
     padding: 20px;
     background-color: bisque;
 }
 nav li {
- 
-    margin: 30px;
+    padding-left: 60px;
+    background-color: bisque;
     text-decoration: none;
-    width: 80px;
     display: inline-block;
 }
+nav ul {
+    background-color: bisque;
+ }
  nav a {
-  
+    
     text-decoration: none;
  }
  a:hover {
