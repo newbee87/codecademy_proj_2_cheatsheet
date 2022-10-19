@@ -3,15 +3,13 @@
     color: white;
     background-color: black;
    
-    border: solid red 1px;
 }
 body {
-    position: relative;
     margin-left: 0;
     margin-top: 100px;
 }   
 nav {
-    border:solid 3px rgb(190, 195, 241);
+    border:solid 3px rgb(114, 107, 107);
     position: fixed;
     top: 0;
     background-color: bisque;
@@ -20,16 +18,17 @@ nav {
 
 }
 nav ul {
-    width: 100%;
     background-color: bisque;
 }
 nav li {
     padding-left: 50px;
     background-color: bisque;
-    width: 80px;
     display: inline-flex;
 }
  nav a {
+    padding: 10px;
+    background-color: rgb(114, 107, 107);
+    border-radius: 50%;
     text-decoration: none;
  }
  a:hover {
