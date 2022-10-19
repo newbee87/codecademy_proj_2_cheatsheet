@@ -9,6 +9,7 @@ body {
     margin-top: 100px;
 }   
 nav {
+    z-index: 1;
     border:solid 3px rgb(114, 107, 107);
     position: fixed;
     top: 0;
@@ -28,9 +29,23 @@ nav li {
  nav a {
     padding: 10px;
     background-color: rgb(114, 107, 107);
-    border-radius: 50%;
+    
+    opacity: .8;
     text-decoration: none;
  }
  a:hover {
     transform: scale(1.5);
  }
+.home {
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    z-index: 0;
+    top: -2px;
+    position: relative;
+    margin: 0;
+    opacity: 0.9;
+    padding: 90px;
+    background-image: url("./pics/869.jpg");
+}
+
