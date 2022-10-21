@@ -48,4 +48,49 @@ nav li {
     padding: 90px;
     background-image: url("./pics/869.jpg");
 }
+.htmlheadline {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 100px;
+  }
 
+.tableheadlines {
+    text-align: center;
+    font-size: xx-large;
+  }
+
+.firsttable td {
+
+   
+    height: 40px;
+    border: solid 1px white;
+  
+   
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(247, 247, 247);
+    
+   
+}
+table th{
+    border: solid 5px rgb(255, 0, 0);
+    
+   
+}
+
+
+
+.c1 {
+   
+    width: 150px;
+}
+.c2 {
+    width: 150px;
+}
+.c3 {
+    text-align: center;
+}
